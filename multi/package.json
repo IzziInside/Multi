@@ -1,0 +1,26 @@
+{
+  "name": "multiasoftfix",
+  "version": "1.4.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "booru": "^2.3.2",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.4",
+    "opusscript": "0.0.7",
+    "quick.db": "^7.1.2",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0",
+    "ytdl-core": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lepax, Izzi, AmperCZ1",
+  "license": "ISC"
+}
