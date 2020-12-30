@@ -16,7 +16,7 @@ module.exports = {
       }
     }
   `;
-    const response = await request(endpoint, query, { token: "MULTI_KLBCQZXUJSRQBATBLHDPEDGZ" });
+    const response = await request(endpoint, query, { token: "TOKEN" });
     console.log({ response });
     const stats = response.linkify_stats;
     if (!stats.redirected || !stats.created)
