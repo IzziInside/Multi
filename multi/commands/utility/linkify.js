@@ -38,7 +38,7 @@ module.exports = {
      }
    }
  `;
-    const response = await request(endpoint, query, { token: "MULTI_KLBCQZXUJSRQBATBLHDPEDGZ", url, alias });
+    const response = await request(endpoint, query, { token: "TOKEN", url, alias });
     console.log({ response });
     const add_link = response.linkify_add_link;
     // pokud se nic neposralo, odpoví s "... <doména>/<alias>"
